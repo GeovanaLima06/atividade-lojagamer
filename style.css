@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #1a1a1a; /*muda a cor do fundo/*
+    background-color: #1a1a1a; /*muda a cor do fundo*/
 
 }
 
@@ -10,6 +10,7 @@ li a{
     text-decoration: none; /*remove o sublinhadin*/
 font-size: 20px; /*tamanho da fonte*/
 color: #ffffff;
+padding: 20px;
 }
 
 li{
@@ -26,3 +27,14 @@ li{
     flex-direction: row; /*coloca os elementos na horizontal ou vertical*/
     
  }
+
+.menu{ /* classe para o menu de navegação*/
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.caixa-img-logo{
+height: 90px; /*altura*/
+width: 140px; /*largura*/
+}
