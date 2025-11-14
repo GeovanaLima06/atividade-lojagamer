@@ -56,25 +56,30 @@ color: #4c544c;
     background-size: cover;
     height: 400px;
     width: 900px;
-    border-radius: 20px; /* borda babado da photo*/
+    border-radius: 15px; /* borda babado da photo*/
     display: flex; /*chama a propriedade flexbox*/
     align-items: center; /*centralizar o babado*/
 }
 .texto-banner{
-    font-size: 35px; /* tamanho da fonte*/
+    font-size: 30px; /* tamanho da fonte*/
     color: #ffffff;
-   
 }
 .btn-menu{
-    width: 120px;
-    height: 45px;
+    width: 110px;
+    height: 35px;
     border-radius: 50px; /* bordinha */
     background-color: #333333; /*cor do fundo do botãozin*/
     color: #ffffff; /*cor apenas da letra escrita dentro do botão*/
     font-weight: bold; /*grossura da fonte*/
     border: none; /*remove a borda preta do botão*/
+    margin:  25px; /*da distancia da direção*/
 }
 
 .caixa-texto-banner{
     width: 250px;
+    padding: 35px; /*espaçamento interno*/
+}
+.section-center{
+    display: flex;
+    justify-content: center; /*muda a fotinha do banner de lugar*/
 }
