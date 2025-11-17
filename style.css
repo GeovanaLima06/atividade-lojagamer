@@ -1,85 +1,139 @@
 *{
     padding: 0;
     margin: 0;
-    
-
+    /* background-color: #1a1a1a; Mudar a cor do fundo */
 }
+
 body{
-    background-color: #1a1a1a; /*muda a cor do fundo*/
+    background-color: #1a1a1a;
 }
-
 li a{
-    text-decoration: none; /*remove o sublinhadin*/
-font-size: 20px; /*tamanho da fonte*/
-color: #ffffff;
+text-decoration: none; /*Remove o sublinhado */
+font-size: 20px; /* Tamanho da font*/
+color: #ffffff; /*Mudar a cor da font*/
 padding: 20px;
 }
 
 li{
-    list-style: none; /*remove formatação da lista, tipo as bolinhas*/
+    list-style: none; /* Remover formartação da lista*/
 }
 
 #logo{
 
-    height: 100px; /*altura*/
-    width: 180px; /*largura*/
+    height: 90px; /*Altura*/
+    width: 140px; /*Largura*/
 }
- ul{
-    display: flex; /*indica a propriedadi*/
-    flex-direction: row; /*coloca os elementos na horizontal ou vertical*/
-    
- }
 
-.menu{ /* classe para o menu de navegação*/
+ul{
+    display: flex; /*Indica a prpriedade FlexBox*/
+    flex-direction: row; /*Colocar os elementos na horizontal ou na vertical*/
+
+
+}
+
+.menu{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    
+   
 }
 
 .caixa-img-logo{
-height: 90px; /*altura*/
-width: 140px; /*largura*/
+    height: 90px;
+    width: 90px;
 }
 
 .bi{
 
-font-size: 35px;
-color: #4c544c;
-
+    font-size: 30px;
+    color: #4c544c;
 }
+
+.container {
+  width: 100%; /* Garante que o container ocupe 100% da largura do elemento pai */
+  max-width: 1200px; /* Define a largura máxima que o container pode atingir */
+  margin: 0 auto; /* Centraliza o container horizontalmente */
+  padding: 0 15px; /* Adiciona um espaçamento nas laterais para evitar que o conteúdo fique colado na tela */
+} 
 
 .banner{
-    background-image: url("./assets/banner.png");
+    background-image:url("./assets/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    width: 900px;
-    border-radius: 15px; /* borda babado da photo*/
-    display: flex; /*chama a propriedade flexbox*/
-    align-items: center; /*centralizar o babado*/
+    height: 500px;
+    width: 800px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 .texto-banner{
-    font-size: 30px; /* tamanho da fonte*/
+    font-size: 25px;
     color: #ffffff;
 }
 .btn-menu{
-    width: 110px;
-    height: 35px;
-    border-radius: 50px; /* bordinha */
-    background-color: #333333; /*cor do fundo do botãozin*/
-    color: #ffffff; /*cor apenas da letra escrita dentro do botão*/
-    font-weight: bold; /*grossura da fonte*/
-    border: none; /*remove a borda preta do botão*/
-    margin:  25px; /*da distancia da direção*/
+width: 145px;
+height: 40px;
+border-radius: 30px;
+background-color: #333333;
+color: #ffffff;
+font-weight: bold;
+border: none;
+font-size: 19px;
+margin: 25px;
 }
 
 .caixa-texto-banner{
-    width: 250px;
-    padding: 35px; /*espaçamento interno*/
+width: 220px;
+padding: 35px; /*Espaçamento interno*/
 }
 .section-center{
+
     display: flex;
-    justify-content: center; /*muda a fotinha do banner de lugar*/
+    justify-content: center;
 }
+
+.titulo-primario{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:700;
+    padding: 20px;
+}
+
+.estutura-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos{
+    height: 400px;
+    width: 190px;
+}
+.valor{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
+.color{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
+}
+
