@@ -201,5 +201,35 @@ padding: 35px; /*Espaçamento interno*/
     border: none;
     font-size: 15px;
 }
+.caixa-footer{
 
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.titulo1{
+    font-size: 18px;
+    color: #ffffff;
+}
+.direito{
+    background-color: #333333;
+    height: 250px;
+    width: 1000px;
+    margin: auto;
 
+}
+.texto-direito{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    font-size: 18px;
+    margin: 25px;
+
+}
