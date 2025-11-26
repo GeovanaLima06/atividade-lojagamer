@@ -202,7 +202,6 @@ padding: 35px; /*Espaçamento interno*/
     font-size: 15px;
 }
 .caixa-footer{
-
     height: 200px;
     width: 100%;
     display: flex;
@@ -213,14 +212,16 @@ padding: 35px; /*Espaçamento interno*/
     justify-content: center;
 }
 .titulo1{
-    font-size: 18px;
+    font-size: 20px;
     color: #ffffff;
 }
 .direito{
     background-color: #333333;
+    font-size: 15px;
     height: 250px;
     width: 1000px;
     margin: auto;
+
 
 }
 .texto-direito{
@@ -232,4 +233,33 @@ padding: 35px; /*Espaçamento interno*/
     font-size: 18px;
     margin: 25px;
 
+}
+.caixa-redes{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.texto-politica{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 190px;
+    font-size: 18px;
+    margin: 25px;
+}
+
+.icon{
+color: #ffffff;
+}
+.logo2{
+    height: 90px;
+    width: 100px;
+}
+.caixa-img-logo2{
+    display: flex;
+    justify-content: end;
+    align-items: end;
 }
